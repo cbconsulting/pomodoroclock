@@ -1,0 +1,25 @@
+{
+  "name": "pomodoroclock",
+  "description": "clock",
+  "main": "index.js",
+  "authors": [
+    "Cory Bowles"
+  ],
+  "license": "UNLICENSED",
+  "keywords": [
+    "clock"
+  ],
+  "homepage": "https://github.com/cbconsulting/pomodoroclock",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "font-awesome": "^4.7.0"
+  }
+}
