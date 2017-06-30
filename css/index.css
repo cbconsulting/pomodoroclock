@@ -16,17 +16,13 @@ body {
     width:55%;
     margin-right: auto;
     margin-left:auto;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-backgroud-size: cover;
-    background-size: cover;
     text-align: center;
-    background-attachment: fixed;
     border-radius: 10px/30px;
+
 }
-.spacer {
+/*.spacer {
     padding-bottom: 3%;
-}
+}*/
 h2 {
     display: inline;
 }
