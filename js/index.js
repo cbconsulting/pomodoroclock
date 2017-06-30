@@ -2,19 +2,17 @@ $(function () {
     var ringer = $("#ringer")[0],
         count = parseInt($("#num").html()),
         count2 = parseInt($("#breakNumber").html());
-
-        // ringer.play();
         $("#session").hide();
 
 $("#start").click(function(){
     var counters = setInterval(clocks,1000);
-    // count  *= 60;
-    // count2 *= 60;
+    count  *= 60;
+    count2 *= 60;
     //just comment out count and count2 to unit test it. For the 25 minute wait to 25 seconds.
     function clocks() {
         $("#breakNumber, #m5time, #wow1, #add5Time, #minus5Break, #add5Break, #start").hide();
         $("#session").show();
-        $("#session").html("Timer:  ");
+        $("#session").html("Timer:  ").css("color", "Black");
 
         count -= 1;
 
@@ -32,7 +30,7 @@ $("#start").click(function(){
             $("#num").html(Math.floor(count/60) + ":" + "0" + count % 60);
         }
         function brTimer(){
-            $("#session").html("Break Timer:   ");
+            $("#session").html("Break Timer: ").css("color", "yellow");
             $("#breakNumber").show();
             
             count2 -= 1;

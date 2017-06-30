@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Calculator</title>
+        <title>Pomodoro Clock</title>
         <!-- Required meta tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/index.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:700|Catamaran:600|Exo:700|Inconsolata:700|Merriweather+Sans:700i|Noticia+Text:700|Orbitron:700|Oswald:700" rel="stylesheet">
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css"/>
         <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css"  type="text/css"/>
         <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
@@ -13,11 +16,11 @@
     <body>
         <div class="spacer"></div>    
         <div class="container-fluid text-center block">
-            <h1>Pomodoro Clock</h1>
-            <h2>FreeCodeCamp</h2><br>
+            <h1 class="wow">Pomodoro Clock</h1>
+            <h2 class="yikes">FreeCodeCamp</h2><br>
             <a href="https://www.freecodecamp.com/cbconsulting"><i class="fa fa-free-code-camp fa-4x alert-success" aria-hidden="true"></i></a>
             <div id="timerDiv">
-                <h1 id="wow1">Start Timer</h1><br>
+                <h1 id="wow1"><b>Start Timer</b></h1><br>
                 <a href="#" class="btn new1" id="m5time">-</a>
                 <h2 id="session"></h2>
                 <h2 id="num">5</h2>
@@ -25,13 +28,15 @@
                 <a href="#" class="btn new1" id="reset">Reset</a>
             </div>
             <div id="breakDiv">
-                <h1 id="wow1">Break Timer</h1><br>
+                <h1 id="wow2"><b>Break Timer</b></h1><br>
                 <a href="#" class="btn new1" id="minus5Break">-</a>
                 <h2 id="breakNumber">5</h2>
                 <a href="#" class="btn new1" id="add5Break">+</a><br>
             </div>
             <a href="#" class="btn new1" id="start">Start</a><br>
+            <footer id = "footer">Developed by:<a href="https://www.freecodecamp.com/cbconsulting"><br><em>Cory Bowles</em></a></footer>
         </div>
         <div class="spacer"></div>
+        
     </body>
 </html>
